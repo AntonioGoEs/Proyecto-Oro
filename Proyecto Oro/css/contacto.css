@@ -1,0 +1,50 @@
+body{
+    background-color: #ccc;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-top: 30px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  form label {
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+   form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 10px;
+    cursor: pointer;
+  }
+  
+ button:hover {
+    background-color: gold;
+  }
+   
+ div {
+    margin-left: 25%;
+    margin-top: 10px;
+ } 
+ 
